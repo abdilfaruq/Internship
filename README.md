@@ -1,0 +1,46 @@
+# INTERNSHIP
+## Knowledge Management System of PT. POS INDONESIA (PERSERO) Website-based using Joomla Version 3
+### Tools : 
+Joomla, Xampp, WinSCP, Navicat Premium 12, Photoshop.
+### Project Description : 
+Utilizing all facilities owned by PT. POS INDONESIA (PERSERO) Bandung based on the objectives and parties who need training from the start of calling participants, preparation and implementation through the web www.wahana.posindonesia.co.id and www.elearning.posindonesia.co.id through the POS Indonesia wifi connection because the web using an intranet.
+From the process of implementing the training program, among them, related Parties/Parties who need training, requests are processed and selected for completeness, complete, the process of calling participants, accommodation preparation, training implementation, evaluation, evaluation report.  
+The process is carried out using Joomla, Xampp, WinSCP, and Navicat Premium 12. The data used are article rides obtained through posindonesia vehicles that are already owned by PT.POS Indonesia. How to get this data that is taken through a connection with the wifi POS and password that has been provided for the Knowledge Management System.
+### Responsibility :
+<ul>
+<li>Look specifically at activities within the company,</li>
+<li>Knowing and understanding applications in the world of computer informatics, especially website designed,</li>
+<li>Creating a website PT.POS INDONESIA (PERSERO) specifically using Joomla V.3.</li>
+</ul>  
+
+## About Joomla
+<ul>
+<li>Joomla! is a Content Management System (CMS) which enables you to build Web sites and powerful online applications,</li>
+<li>It's a free and Open Source software, distributed under the GNU General Public License version 2 or later,</li>
+<li>This is a simple and powerful web server application and it requires a server with PHP and either MySQL, PostgreSQL or SQL Server to run. You can find full technical requirements here: https://downloads.joomla.org/technical-requirements.</li>
+</ul>
+
+## Learning Joomla
+<ul>
+<li>Read Getting Started with Joomla to find out the basics: https://docs.joomla.org/Special:MyLanguage/J3.x:Getting_Started_with_Joomla!</li>
+<li>Before installing, read the beginners guide: https://docs.joomla.org/Special:MyLanguage/Portal:Beginners.</li>
+</ul>
+
+## Support and Help
+<ul>
+<li>The Joomla! Documentation: https://docs.joomla.org/Special:MyLanguage/Main_Page</li>
+<li>FAQ Frequently Asked Questions: https://docs.joomla.org/Special:MyLanguage/Category:FAQ</li>
+<li>Find the information you need: https://docs.joomla.org/Special:MyLanguage/Start_here</li>
+<li>Find help and other users: https://www.joomla.org/about-joomla/create-and-share.html</li>
+<li>Post questions at our forums: https://forum.joomla.org</li>
+<li>Joomla! Resources Directory (JRD): https://resources.joomla.org/</li>
+</ul>
+
+## Copyright :
+<ul>
+<li>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</li>
+<li>Special Thanks: https://docs.joomla.org/Special:MyLanguage/Joomla!_Credits_and_Thanks</li>
+<li>Distributed under the GNU General Public License version 2 or later</li>
+<li>See Licenses details at https://docs.joomla.org/Special:MyLanguage/Joomla_Licenses</li>
+</ul>
+        
