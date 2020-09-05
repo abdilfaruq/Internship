@@ -24,6 +24,26 @@ The process is carried out using Joomla, Xampp, WinSCP, and Navicat Premium 12. 
 <li>Before installing, read the beginners guide: https://docs.joomla.org/Special:MyLanguage/Portal:Beginners.</li>
 </ul>
 
+## Usage
+<ul>
+<li>Open Xampp, click start on Apache and MySQL.</li>
+<li>Enter files php.ini to change 2M to 100M.</li>
+<li>Restart Apache and MySQL.</li>
+<li>Open browser, then open "http://localhost/phpmyadmin/"</li>
+<li>Click new, make the database name pos_indo, click to create.</li>
+<li>Then in pos_indo click import, click browse input file pos_indo.sql.</li>
+<li>After successful New Tab to enter admin "http://localhost/magang/administrator /"</li>
+<ul>
+        Username = admin, Password = abdil.
+</ul>
+<li>Finally, there are two steps to open this original website,</li>
+        <ul>
+                <li>The first are new tab type "http://localhost/magang/"</li>
+                <li>The second is through the admin in the lower corner, there is a "View Site" section, please click.</li>
+        </ul>
+</ul>
+
+
 ## Support and Help
 <ul>
 <li>The Joomla! Documentation: https://docs.joomla.org/Special:MyLanguage/Main_Page</li>
