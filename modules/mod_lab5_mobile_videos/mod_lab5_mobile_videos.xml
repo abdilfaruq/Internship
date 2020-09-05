@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6" client="site" method="upgrade">
+	<name>MOD_LAB5_MOBILE_VIDEOS</name>
+	<author>Lab5 - Dennis Riegelsberger</author>
+	<authorUrl>http://lab5.ch</authorUrl>
+	<authorEmail>info@lab5.ch</authorEmail>
+	<copyright>Copyright (C) 2012+  Lab5 - Dennis Riegelsberger. All rights reserved.</copyright>
+	<copyrightUrl>http://lab5.ch</copyrightUrl>
+	<license>GNU/GPL General Public License version 2 or later</license>
+	<licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+	<project>http://lab5.ch/blog</project>
+	<version>1.9.2</version>
+	<creationDate>2016-07-12</creationDate>
+	<description>MOD_LAB5_MOBILE_VIDEOS_DESCRIPTION</description>
+	
+	<!-- UPDATESERVER DEFINITION -->
+	<updateservers>
+					<!-- Note: No spaces or linebreaks allowed between the server tags -->
+					<server type="extension" priority="1" name="Lab5 - Update Server (primary)">https://downloadserver.lab5.ch/updates.joomla.xml?extension=mod_lab5_mobile_videos</server>
+	</updateservers>
+
+	<!-- Runs on install/uninstall/update; New in 2.5
+	<scriptfile>installer/unifier.php</scriptfile>
+	 -->
+	
+	<languages folder="language">
+			<language tag="en-GB">en-GB/en-GB.mod_lab5_mobile_videos.ini</language>
+			<language tag="en-GB">en-GB/en-GB.mod_lab5_mobile_videos.sys.ini</language>
+	</languages>
+	
+	<files>
+				
+				<filename module="mod_lab5_mobile_videos">mod_lab5_mobile_videos.php</filename>
+				<filename>index.html</filename>
+				<filename>license-flowplayer.html</filename>
+				<filename>helper.php</filename>
+				<filename>license.txt</filename>
+				<folder>admin</folder>
+				<folder>assets</folder>
+				<folder>includes</folder>
+				<folder>installer</folder>
+				<folder>language</folder>
+				<folder>media</folder>
+				<folder>samples</folder>
+				<folder>scripts</folder>
+				<folder>swf</folder>
+				<folder>tmpl</folder>
+		
+	</files>
+
+
+<!-- Joomla! 1.6+ uses fieldset -->
+
+<config>
+<fields name="params">
+
+
+			<fieldset name="basic" >
+							
+							<field type="about" 
+							extension="mod_lab5_mobile_videos" 
+							extensionpath="modules/mod_lab5_mobile_videos" 
+							addfieldpath="/modules/mod_lab5_mobile_videos/admin/elements/ext" />
+							
+							<field type="jed" 
+							label="LAB5_JEDLINK_LABEL"
+							url="http://extensions.joomla.org/extension/lab5-mobile-videos"  
+							/>
+							
+							<field type="asset"  />
+			
+			</fieldset>
+			
+			<fieldset name="OPENSOURCE" label="XML_FIELDSET_OPENSOURCE" >
+					
+							<field type="jed" 
+							label="LAB5_JEDLINK_LABEL"
+							url="http://extensions.joomla.org/extension/lab5-mobile-videos"  
+							/>
+							<field type="donationplox" label="LAB5_DONATIONPLOX_LABEL" />
+			
+			</fieldset>
+			
+			
+	<fieldset name="manual" label="XML FIELDSET MANUAL">
+
+	
+					<field name="spacer00" type="spacer" label="XML INFO"/>	
+					<field name="spacer01" type="spacer" hr="true"/>	
+					<field name="spacer02" type="spacer" label="XML INFO1" class="text"/>	
+					<field name="spacer03" type="spacer" label="XML INFO2"/>
+					<field name="spacer04" type="spacer" label="XML INFO3"/>
+					<field name="spacer05" type="spacer" label="XML INFO4"/>
+					<field name="spacer06" type="spacer" label="XML INFO5"/>
+					<field name="spacer07" type="spacer" hr="true"/>	
+					<field name="spacer08" type="spacer" label="XML IMOPRTANT"/>
+					<field name="spacer09" type="spacer" hr="true"/>	
+					<field name="spacer10" type="spacer" label="XML VIDEOCONVERTER1"/>	
+					<field name="spacer11" type="spacer" label="XML VIDEOCONVERTER2"/>
+					<field name="spacer12" type="spacer" label="XML VIDEOCONVERTER3"/>
+					<field name="spacer13" type="spacer" hr="true"/>	
+					<field name="spacer14" type="spacer" class="text" label="XML LAB5 ENJOY"  />
+
+					
+	</fieldset>
+	<fieldset name="player" label="XML PLAYER FIELDSET">
+
+		
+					<field name="previewimage" 
+					type="text" default="/modules/mod_lab5_mobile_videos/samples/splashimage.jpg" 
+					label="XML PREVIEWIMAGE LABEL" description="XML PREVIEWIMAGE TXT" />
+					
+					<field name="playbutton" 
+					type="text" default="/modules/mod_lab5_mobile_videos/assets/img/player/btn/play_text_large.png" 
+					label="Play-button Path" description="Path to Play-button" />
+					
+					<field name="width" default="480" 
+					type="text" label="XML WIDTH LABEL" description="XML WIDTH TXT" />
+					<field name="height" default="270"
+					type="text" label="XML HEIGHT LABEL" description="XML HEIGHT TXT" />
+					<field name="volume" 
+					type="text" default="50" label="XML VOLUME LABEL" description="XML VOLUME TXT" />
+					<field name="scaling"
+					type="list" default="scale" label="XML SCALING LABEL" description="XML SCALING TXT">
+					
+						<option value="scale">scale</option>
+						<option value="fit">fit</option>
+						<option value="orig">orig</option>
+						<option value="half">half</option>
+					</field>
+					<field name="autoplay"
+					type="list" default="0" label="XML AUTOPLAY LABEL" description="XML AUTOPLAY TXT">
+					
+						<option value="0">No</option>
+						<option value="1">Yes</option>
+					</field>
+					<field name="randomsort"
+					type="list" default="0" label="XML RANDOMSORT LABEL" description="XML RANDOMSORT TXT">
+					
+						<option value="0">No</option>
+						<option value="1">Yes</option>
+					</field>
+					<field name="muted" 
+					type="list" default="0" label="XML MUTED LABEL" description="XML MUTED TXT">
+						<option value="0">No</option>
+						<option value="1">Yes</option>
+					</field>
+					<field name="wmode" 
+					type="list" default="0" label="XML WMODE LABEL" description="XML WMODE TXT">
+						<option value="opaque">opaque</option>
+						<option value="transparent">transparent</option>
+					</field>
+					<field name="bgcolor" default=""
+					type="text" label="XML BGCOLOR LABEL" description="XML BGCOLOR TXT" />
+					
+					<field name="spacer17" type="spacer"  hr="true"/>
+		
+						
+						<field name="playlistfolder" 
+						type="text" 
+						default="/images/stories/videos/" 
+						label="XML PLAYLISTFOLDER LABEL" description="XML PLAYLISTFOLDER TXT" />		
+						<field name="spacer181" type="spacer" label="XML PLAYLIST SYNTAX"  />	
+						<field name="spacer182" type="spacer" label="XML PLAYLIST INFO1"  />
+						<field name="playlist" 
+						type="textarea" cols="45" rows="12" 
+						label="XML PLAYLIST LABEL" description="XML PLAYLIST TXT" 
+					default= "
+					http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4|Big Buck Bunny|1:01 min;
+					http://media.w3.org/2010/05/sintel/trailer.mp4|Land of the Gatekeepers|0:52 min;
+					http://slides.html5rocks.com/src/chrome_japan.mp4|Chrome Propaganda|I prefere Firefox;
+					http://media.jilion.com/videos/demo/midnight_sun_sv1_360p.mp4|Landscapes|1:27 min;
+					
+					http://www.808.dk/pics/video/gizmo.mp4|Lego Copter|0:06 min;
+					http://haignet.co.uk/html5-video-element-test.mp4|Chimps|in the zoo;
+					http://html5demos.com/assets/dizzy.mp4|Laser Cat|getting dizzy;
+					http://www.annodex.net/~silvia/itext/elephants_dream/elephant.mp4|Elephants Dream|10:54 min;
+					"/>
+						<field name="spacer19" type="spacer" label="XML PLAYLIST INFO2"  />
+
+	
+	</fieldset>
+	<fieldset name="playlist" label="XML PLAYLIST FIELDSET">
+
+	
+					<field name="useplaylists" 
+					type="list" default="1" label="XML USEPLAYLIST LABEL" description="XML USEPLAYLIST TXT">
+					
+						<option value="0">No</option>
+						<option value="1">Yes</option>
+					</field>
+					<field name="thumbnailfolder" 
+					type="text" default="/modules/mod_lab5_mobile_videos/samples/thumbs/" 
+					label="XML THUMBNAILFOLDER LABEL" description="XML THUMBNAILFOLDER TXT" />		
+					<field name="playlist_num_per_page" 
+					type="text" default="4" 
+					label="XML PLAYLIST NUMPERPAGE LABEL" description="XML PLAYLIST NUMPERPAGE TXT" />	
+					<field name="show_titles" 
+					type="list" default="1" label="XML PL SHOW TITLES LABEL" description="">
+						<option value="0">No</option>
+						<option value="1">Yes</option>
+					</field>
+					<field name="show_subtitles" 
+					type="list" default="1" label="XML PL SHOW SUBTITLES LABEL" description="">
+						<option value="0">No</option>
+						<option value="1">Yes</option>
+					</field>	
+					<field name="playlist_height" default="57"
+					type="text" label="XML PLAYLIST HEIGHT LABEL" description="XML PLAYLIST HEIGHT TXT" />		
+					<field name="thumblist" type="textarea" cols="45" rows="6" 
+					default=
+					"thumb1.png;thumb2.png;thumb3.png;thumb4.png;
+					thumb5.png;thumb6.png;thumb7.png;thumb8.png;" 
+					label="XML THUMBLIST LABEL" description="XML THUMBLIST TXT" />		
+					<field name="playlist_btns" 
+					type="text" default="18" 
+					label="XML PLAYLIST BTNS LABEL" description="XML PLAYLIST BTNS TXT" />
+					
+		
+	</fieldset>
+	<fieldset name="html" label="XML HTML FIELDSET">
+			
+			
+					<field name="spacer22" type="spacer" label="XML HTML DESC"/>		
+					<field name="pretext"  type="textarea" cols="45" rows="9" 
+					label="XML HTML PRE LABEL" description="XML HTML PRE TXT" />		
+					<field name="posttext"  type="textarea" cols="45" rows="9" 
+					label="XML HTML POST LABEL" description="XML HTML POST TXT" />
+		
+	
+	</fieldset>
+	<fieldset name="expert" label="XML FIELDSET COMPAT">
+			
+					
+					<field name="spacer25" type="spacer" label="XML FIELDSET COMPAT INFO"/>
+					
+					<field name="suppress_js_jquery" 
+					type="list" default="2" label="XML SUPPRESS JQUERY LABEL" description="XML SUPPRESS TXT">
+						<option value="0">XML SUPPRESS INCLUDED</option>
+						<option value="1">XML SUPPRESS NOTINCLUDED</option>
+					</field>	
+					<field name="suppress_js_jquerytools" 
+					type="list" default="0" label="XML SUPPRESS JQUERYTOOLS LABEL" description="XML SUPPRESS TXT">
+						<option value="0">XML SUPPRESS INCLUDED</option>
+						<option value="1">XML SUPPRESS NOTINCLUDED</option>
+					</field>			
+					<field name="suppress_js_player" 
+					type="list" default="0" label="XML SUPPRESS FP LABEL" description="XML SUPPRESS TXT">
+						<option value="0">XML SUPPRESS INCLUDED</option>
+						<option value="1">XML SUPPRESS NOTINCLUDED</option>
+					</field>			
+					<field name="suppress_js_plug_playlist" 
+					type="list" default="0" label="XML SUPPRESS PLAYLIST LABEL" description="XML SUPPRESS TXT">
+						<option value="0">XML SUPPRESS INCLUDED</option>
+						<option value="1">XML SUPPRESS NOTINCLUDED</option>
+					</field>			
+					<field name="suppress_js_plug_ipad" 
+					type="list" default="0" label="XML SUPPRESS IPAD LABEL" description="XML SUPPRESS TXT">
+						<option value="0">XML SUPPRESS INCLUDED</option>
+						<option value="1">XML SUPPRESS NOTINCLUDED</option>
+					</field>
+					
+					<field name="swf_source" 
+					type="list" default="0" label="XML SWF SOURCE LABEL" description="XML SWF SOURCE TXT">
+						<option value="0">XML SWF SOURCE OPTION INTERNAL</option>
+						<option value="1">XML SWF SOURCE OPTION EXTERNAL</option>
+					</field>
+		
+		
+	</fieldset>
+	<fieldset name="advanced">
+		
+
+					<field name="filteringspacer2" type="spacer" hr="true" />
+					<field
+						name="moduleclass_sfx"
+						type="text"
+						label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+						description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+					<field
+						name="owncache"
+						type="list"
+						default="1"
+						label="COM_MODULES_FIELD_CACHING_LABEL"
+						description="COM_MODULES_FIELD_CACHING_DESC">
+						<option
+							value="1">JGLOBAL_USE_GLOBAL</option>
+						<option
+							value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+					</field>
+	
+			</fieldset>
+
+
+
+</fields>
+</config>
+
+	
+	
+</extension>

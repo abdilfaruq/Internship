@@ -1,0 +1,113 @@
+a:4:{s:4:"root";s:64:"C:\xampp\htdocs\magang\templates/shaper_helix3/less/presets.less";s:8:"compiled";s:2159:"a {
+  color: #f77620;
+}
+a:hover {
+  color: #dc5d08;
+}
+.sp-megamenu-parent >li.active>a,
+.sp-megamenu-parent >li:hover>a {
+  color: #f77620;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item >a:hover {
+  background: #f77620;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item.active>a {
+  color: #f77620;
+}
+#offcanvas-toggler >i {
+  color: #000000;
+}
+#offcanvas-toggler >i:hover {
+  color: #f77620;
+}
+.btn-primary,
+.sppb-btn-primary {
+  border-color: #f06509;
+  background-color: #f77620;
+}
+.btn-primary:hover,
+.sppb-btn-primary:hover {
+  border-color: #c35207;
+  background-color: #dc5d08;
+}
+ul.social-icons >li a:hover {
+  color: #f77620;
+}
+.sp-page-title {
+  background: #f77620;
+}
+.layout-boxed .body-innerwrapper {
+  background: #ffffff;
+}
+.sp-module ul >li >a {
+  color: #000000;
+}
+.sp-module ul >li >a:hover {
+  color: #f77620;
+}
+.sp-module .latestnews >div >a {
+  color: #000000;
+}
+.sp-module .latestnews >div >a:hover {
+  color: #f77620;
+}
+.sp-module .tagscloud .tag-name:hover {
+  background: #f77620;
+}
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover {
+  background: #f77620;
+}
+.search .btn-toolbar button {
+  background: #f77620;
+}
+.post-format {
+  background: #f77620;
+}
+.voting-symbol span.star.active:before {
+  color: #f77620;
+}
+.sp-rating span.star:hover:before,
+.sp-rating span.star:hover ~ span.star:before {
+  color: #dc5d08;
+}
+.entry-link,
+.entry-quote {
+  background: #f77620;
+}
+blockquote {
+  border-color: #f77620;
+}
+.carousel-left:hover,
+.carousel-right:hover {
+  background: #f77620;
+}
+#sp-footer {
+  background: #f77620;
+}
+.sp-comingsoon body {
+  background-color: #f77620;
+}
+.pagination>li>a,
+.pagination>li>span {
+  color: #000000;
+}
+.pagination>li>a:hover,
+.pagination>li>a:focus,
+.pagination>li>span:hover,
+.pagination>li>span:focus {
+  color: #000000;
+}
+.pagination>.active>a,
+.pagination>.active>span {
+  border-color: #f77620;
+  background-color: #f77620;
+}
+.pagination>.active>a:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:hover,
+.pagination>.active>span:focus {
+  border-color: #f77620;
+  background-color: #f77620;
+}
+";s:5:"files";a:15:{s:73:"C:\xampp\htdocs\magang\templates\shaper_helix3\less\legacy\bootstrap.less";i:1532590536;s:73:"C:\xampp\htdocs\magang\templates\shaper_helix3\less\legacy\variables.less";i:1532590536;s:70:"C:\xampp\htdocs\magang\templates\shaper_helix3\less\legacy\mixins.less";i:1532590536;s:68:"C:\xampp\htdocs\magang\templates\shaper_helix3\less\legacy\grid.less";i:1532590536;s:69:"C:\xampp\htdocs\magang\templates\shaper_helix3\less\legacy\forms.less";i:1532590536;s:69:"C:\xampp\htdocs\magang\templates\shaper_helix3\less\legacy\wells.less";i:1532590536;s:73:"C:\xampp\htdocs\magang\templates\shaper_helix3\less\legacy\accordion.less";i:1532590536;s:91:"C:\xampp\htdocs\magang\templates\shaper_helix3\less\legacy\responsive-767px-max.joomla.less";i:1532590536;s:63:"C:\xampp\htdocs\magang\templates\shaper_helix3\less\master.less";i:1532590536;s:66:"C:\xampp\htdocs\magang\templates\shaper_helix3\less\variables.less";i:1532590536;s:63:"C:\xampp\htdocs\magang\templates\shaper_helix3\less\mixins.less";i:1532590536;s:64:"C:\xampp\htdocs\magang\templates\shaper_helix3\less\icomoon.less";i:1532590536;s:61:"C:\xampp\htdocs\magang\templates\shaper_helix3\less\menu.less";i:1532590536;s:62:"C:\xampp\htdocs\magang\templates\shaper_helix3\less\theme.less";i:1532590536;s:64:"C:\xampp\htdocs\magang\templates\shaper_helix3\less\presets.less";i:1532590536;}s:7:"updated";i:1534229151;}

@@ -1,0 +1,12 @@
+
+
+"Lab5 Mobile Videos Module" is licensed unter the GNU/GPL v.2 opensource license
+( see : http://www.gnu.org/licenses/gpl.html )
+
+Further this Joomla! module and and all additional files shipped with respectively bundeled with, even if they are not executive parts of the software, will be referred to as "package".
+
+The Joomla Extension "Lab5 Mobile Videos Module" software package contains scripts from Flowplayer (http://flowplayer.org), which are GPL 3.0, for instance the "Flowplayer Free version", but basically all files in the folder "scripts/" , beginning with filename "flowplayer".
+For he license of them see the file "license-flowplayer.html" in this pagacke, check the license infos within those files and see also http://flowplayer.org/download/free-license-faq.html and  http://flowplayer.org/download/ ) So, by using those software parts in this package, you automatically also agree to the license-conditions of Flowplayer's software-contributons towards Flowplayer.
+
+
+Your all right with that ? Then allright, Enjoy ! ;)

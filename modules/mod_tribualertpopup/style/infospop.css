@@ -1,0 +1,50 @@
+/* Affichage général */
+.informationsbanner{color:#FFFFFF;background-color:#FF0000;overflow:auto;} 
+.informationsbanner p{float:left;padding:3px;margin:5px;font-size:1.3em;line-height:25px;height:25px;} 
+.informationsbanner p.infostitle{/* width:320px; */width:auto; font-size:1.5em; margin-right:15px } 
+.informationsbanner p.infostitle img{margin-right:5px;vertical-align:middle;} 
+.informationsbanner p.infostitle a{color:#FFFFFF;text-decoration:none;display:block;} 
+
+.informationsbanner p.infosbtn{float:right;font-size:1em;} 
+.informationsbanner p.infosbtn a{color:#FF0000;text-decoration:none;display:block;background-color:#FFFFFF;padding:0px 5px;margin:0px;} 
+ 
+
+.infosfullscreen {
+	background: none repeat scroll 0 0 rgba(255,255,255,0.9);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ffffff', endColorstr='#e6ffffff',GradientType=0 );
+	bottom: 0;
+	color:#000000;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 10000;
+	height:100%;
+	display:none
+}
+.infosposition {
+	margin:140px auto 0px;
+	position:relative;
+	box-shadow:0px 0px 3px #D9D7E2
+}
+.infospoptools {
+ height: 50px;
+ position:absolute;
+ /* right:0px;
+ top:-25px */
+ top:2px; right:2px;
+}
+.infospoptools .btn{
+	/* border-radius:15px; */
+	font-family:arial;
+	font-size:12px;
+	height: 25px;
+	line-height: 25px;
+	z-index:10000;
+	padding:0px 2px;
+	border:none; padding:0 7px; border-radius:0;
+}
+
+.infoscontent{padding:30px 15px 15px;background-color:#FFF;}
+.infosfullscreen .poparticle:first-child h2 { margin-top:0!important }

@@ -1,0 +1,76 @@
+/* CSS Document */
+/*
+		/////////////////////////////////////////
+		# Package Information: #
+		/////////////////////////////////////////
+		
+			name : Lab5 Mobile Videos Module
+			creationDate	:	2011-12-01
+			author	:	Lab5 - Dennis Riegelsberger
+			authorUrl	:	http://lab5.ch
+			authorEmail	:	info@lab5.ch
+			copyright	:	(C) Lab5 - Dennis Riegelsberger
+			copyrightUrl	:	http://lab5.ch
+			license	:	GNU/GPL
+			licenseUrl	:	http://www.gnu.org/licenses/gpl.html
+			project	:	http://lab5.ch/blog
+			ütf8
+		/////////////////////////////////////////
+*/
+
+.mod_lab5_mobile_videos{	
+ display:block;
+}
+
+
+.mod_lab5_mobile_videos img{	
+	
+	border:0;
+	z-index:auto;
+}
+
+/* container has a background image */
+.mod_lab5_mobile_videos a.player {	
+
+	margin:0 0 20px 80px;	
+	margin:0 auto 10px auto;
+	margin:0 auto;		
+	
+	display:block;
+	
+	text-align:center;
+	color:#fff;
+	text-decoration:none;
+	cursor:pointer;
+	background:#000 url(/img/global/gradient/h500.png) repeat-x 0 0;
+	background:-moz-linear-gradient(top, rgba(55, 102, 152, 0.9), rgba(6, 6, 6, 0.9));
+	-moz-box-shadow:0 0 40px rgba(100, 118, 173, 0.5);
+}
+
+.mod_lab5_mobile_videos a.player:hover {
+	background:-moz-linear-gradient(center top, rgba(73, 122, 173, 0.898), rgba(6, 6, 6, 0.898));	
+}
+
+
+
+/* the playbutton  */
+
+.mod_lab5_mobile_videos a.player div.l5mv-playerscreen,
+.mod_lab5_mobile_videos a.player div.l5mv-playerscreen table {
+	
+	margin:auto;
+	height:100%;
+	width:100%;
+	border:0;	
+	padding:0;	
+}
+.mod_lab5_mobile_videos a.player div.l5mv-playerscreen,
+.mod_lab5_mobile_videos a.player div.l5mv-playerscreen * {
+	
+	text-align:center !important;
+	vertical-align:middle !important;
+}
+.mod_lab5_mobile_videos a.player div.l5mv-playerscreen table tr:hover td {
+	
+	background:none;	
+}

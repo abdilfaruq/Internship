@@ -1,0 +1,182 @@
+/*
+		/////////////////////////////////////////
+		# Package Information: #
+		/////////////////////////////////////////
+		
+				name : Lab5 Mobile Videos Module
+				creationDate	:	2011-12-01
+				author	:	Lab5 - Dennis Riegelsberger
+				authorUrl	:	http://lab5.ch
+				authorEmail	:	info@lab5.ch
+				copyright	:	(C) Lab5 - Dennis Riegelsberger
+				copyrightUrl	:	http://lab5.ch
+				license	:	GNU/GPL
+				licenseUrl	:	http://www.gnu.org/licenses/gpl.html
+				project	:	http://lab5.ch/blog
+				ütf8
+		/////////////////////////////////////////
+*/
+
+
+.mod_lab5_mobile_videos .playlist_wrap {
+	
+	margin-top:10px;
+	margin:10px auto 0 auto;			
+}
+
+	.mod_lab5_mobile_videos div.playlist {
+		
+			border:1px solid #ddd;
+			position:relative;
+			overflow:hidden;
+			padding:5px 0;
+			float:left;
+	}
+	
+.L5MVm_entries {
+	
+	position:absolute;
+	width:10000em;
+}
+
+
+.L5MVm_entries .page {
+	width:580px;
+	float:left;
+}
+
+.L5MVm_entries a,
+.L5MVm_entries a:link,
+.L5MVm_entries a:visited {
+	background:transparent url(img/playlist/noimage.png) no-repeat scroll 0%;
+	color:#666;
+	color:#333;
+	color:#fff;
+	/*font-weight:bold;*/
+	float:left;
+	font-family:"bitstream vera sans","lucida grande","verdana";
+	font-size:11px;
+	font-size:10px;
+	line-height: 11px;
+	margin:0px 4px;
+	margin:0px 3px 0px 4px;
+	padding:10px;
+	text-decoration:none;
+	position:relative;
+	
+	/*normal*/
+	/*width:117px;*/
+	
+	/*large*/
+	/*width:112px;*/
+}
+.L5MVm_entries a,
+.L5MVm_entries a:link,
+.L5MVm_entries a:visited {
+
+	/*height:60px;
+	height:auto;*/
+	padding:0px;
+}
+
+.L5MVm_entries a div.l5mv_thumbscreen {
+	
+}
+.L5MVm_entries a div.l5mv_thumbscreen div {
+	background:#fff;
+	background:#000;
+	padding: 1px 3px;
+	/*margin-right:10px;*/
+	max-width:77%;
+	position:absolute;
+	top:5px;
+	left:10px;
+	opacity:0.66;
+  filter: alpha(opacity=66);
+}
+
+
+.L5MVm_entries a:hover {
+	/*background-position:-140px 0;*/
+	color:#000;
+}
+.L5MVm_entries a:hover div.l5mv_thumbscreen div{
+	color:#000;
+	background:#fff;
+}
+
+.L5MVm_entries .playing {
+	background-position:-280px 0;		
+	color:#000;
+}
+
+.L5MVm_entries .paused {
+	background-position:-420px 0;	
+	color:#000;
+}
+
+.L5MVm_entries .progress {
+	/*opacity:0.7;
+  filter: alpha(opacity=7);*/
+}
+
+.L5MVm_entries em {	
+	/*float:right;*/
+	margin-top:15px;
+	margin-top:10px;
+	margin-top:20px;
+	font-size:8px;
+	line-height: 10px;
+	color:#333;
+	font-weight: bold;
+	/*letter-spacing: -0.5px;*/
+	font-style:normal;
+	background:#fff;
+	padding: 1px 3px;
+	position:absolute;
+	bottom:5px;
+	right:5px;
+	opacity:0.5;
+  filter: alpha(opacity=50);
+}
+
+
+
+/****** BUTTONS ******/
+		
+		
+		.mod_lab5_mobile_videos a.next, 
+		.mod_lab5_mobile_videos a.prev {
+			
+			display:block;
+			margin:30px 10px;
+			margin:0px 0px;
+			margin-right:2px;
+			cursor:pointer;
+			float:left;
+		}
+		.mod_lab5_mobile_videos a.next {
+			margin:0px 0px;
+			margin-left:2px;
+		}
+		.mod_lab5_mobile_videos a.prev div,
+		.mod_lab5_mobile_videos a.next div {
+			
+			width:18px;
+			background:url(img/playlist/arrow/left.png) no-repeat left center;
+		}
+		.mod_lab5_mobile_videos a.next div {
+			background-image:url(img/playlist/arrow/right.png);	
+		}
+		.mod_lab5_mobile_videos a.next:hover, 
+		.mod_lab5_mobile_videos a.prev:hover {
+			/*background-position:0px -18px;*/
+		}
+		
+		.mod_lab5_mobile_videos a.next.disabled, 
+		.mod_lab5_mobile_videos a.prev.disabled {
+			visibility:hidden;		
+		}
+		
+
+	

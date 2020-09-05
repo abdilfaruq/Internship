@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+  <name>video slider</name>
+  <author>joombest.com</author>
+  <creationDate>May 2016</creationDate>
+  <copyright>Copyright (C) 2016 joombest.com. All rights reserved.</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <authorEmail>support@joombest.com</authorEmail>
+  <authorUrl>www.joombest.com</authorUrl>
+  <version>1.2</version>
+  <description>EXC_DESC</description>
+  <languages>
+    <language tag="en-GB">language/en-GB.mod_video_slider.ini</language>
+  </languages>
+  <files>
+    <filename module="mod_video_slider">mod_video_slider.php</filename>
+    <filename>helper.php</filename>
+    <filename>index.html</filename>
+    <folder>tmpl/</folder>
+    <folder>fields/</folder>
+    <folder>helpers/</folder>
+    <folder>language/</folder>
+    <folder>assets/</folder>
+  </files>
+  <config>
+    <fields name="params">
+      <fieldset name="basic" addfieldpath="/modules/mod_video_slider/fields">
+        <field type="assets" url="/modules/mod_video_slider/assets" />
+        <field type="tmpl" name="sp_style" default="Videoslid"  label="Function name" description="Function name" />
+		<field name="enableQuery" type="radio" default="1" label="Enable/Disable jQuery" description="select Enable/Disable">
+			<option value="1">Enable</option>
+			<option value="0">Disable</option>
+		</field>		
+      </fieldset>
+      <fieldset name="sliders" description="config item data,Click Add New(need title)" label="Setting data">
+        <field type="sliders" name="sliders" />
+      </fieldset>
+	  <fieldset name="animation">
+        <field type="animation" name="animation" />
+		<field type="loader" />
+		<field name="auto_play" type="list" default="1" label="Autoplay" description="select yes/no">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</field>
+		<field name="pagination" type="list" default="1" label="vertical/horizontal navigator" description="Choose video style">
+			<option value="1">content-vertical</option>
+			<option value="0">content-horizontal</option>
+		</field>
+		<field name="animationSpeed" type="text" default="1000" label="Play speed" description="Play speed" />
+		<field name="width_module" type="text" default="1500" label="width module" description="width of module" />
+		
+      </fieldset>
+      <fieldset name="advanced">	  
+		<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+		<field name="module_cache" type="list" default="1" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+		<option value="1">JGLOBAL_USE_GLOBAL</option>
+		<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+		</field>
+		<field name="cache" type="hidden" default="1" />
+		<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+		<field name="cachemode" type="hidden" default="itemid">
+			<option value="itemid"></option>
+		</field>
+      </fieldset>
+    </fields>
+  </config>
+</extension>
