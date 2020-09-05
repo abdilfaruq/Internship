@@ -1,12 +1,10 @@
 # INTERNSHIP
 ## Knowledge Management System of PT. POS INDONESIA (PERSERO) Website-based using Joomla Version 3
-### Tools : 
-Joomla, Xampp, WinSCP, Navicat Premium 12, Photoshop.
-### Project Description : 
+### Project Description
 Utilizing all facilities owned by PT. POS INDONESIA (PERSERO) Bandung based on the objectives and parties who need training from the start of calling participants, preparation and implementation through the web www.wahana.posindonesia.co.id and www.elearning.posindonesia.co.id through the POS Indonesia wifi connection because the web using an intranet.
 From the process of implementing the training program, among them, related Parties/Parties who need training, requests are processed and selected for completeness, complete, the process of calling participants, accommodation preparation, training implementation, evaluation, evaluation report.  
 The process is carried out using Joomla, Xampp, WinSCP, and Navicat Premium 12. The data used are article rides obtained through posindonesia vehicles that are already owned by PT.POS Indonesia. How to get this data that is taken through a connection with the wifi POS and password that has been provided for the Knowledge Management System.
-### Responsibility :
+### Responsibility
 <ul>
 <li>Look specifically at activities within the company,</li>
 <li>Knowing and understanding applications in the world of computer informatics, especially website designed,</li>
@@ -36,7 +34,7 @@ The process is carried out using Joomla, Xampp, WinSCP, and Navicat Premium 12. 
 <li>Joomla! Resources Directory (JRD): https://resources.joomla.org/</li>
 </ul>
 
-## Copyright :
+## Copyright
 <ul>
 <li>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</li>
 <li>Special Thanks: https://docs.joomla.org/Special:MyLanguage/Joomla!_Credits_and_Thanks</li>
