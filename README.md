@@ -4,12 +4,6 @@
 Utilizing all facilities owned by PT. POS INDONESIA (PERSERO) Bandung based on the objectives and parties who need training from the start of calling participants, preparation and implementation through the web www.wahana.posindonesia.co.id and www.elearning.posindonesia.co.id through the POS Indonesia wifi connection because the web using an intranet.  
 From the process of implementing the training program, among them, related Parties/Parties who need training, requests are processed and selected for completeness, complete, the process of calling participants, accommodation preparation, training implementation, evaluation, evaluation report.    
 The process is carried out using Joomla, Xampp, WinSCP, and Navicat Premium 12. The data used are article rides obtained through posindonesia vehicles that are already owned by PT.POS Indonesia. How to get this data that is taken through a connection with the wifi POS and password that has been provided for the Knowledge Management System.
-### Responsibility
-<ul>
-        <li>Look specifically at activities within the company,</li>
-        <li>Knowing and understanding applications in the world of computer informatics, especially website designed,</li>
-        <li>Creating a website PT.POS INDONESIA (PERSERO) specifically using Joomla V.3.</li>
-</ul>  
 
 ## About Joomla
 <ul>
