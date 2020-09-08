@@ -44,6 +44,46 @@ Here are some configurable environment values.
         <li>PHP_UPLOAD_MAX_FILESIZE = 100M.</li>
 </ul>
 
+## Screenshots:
+<p align="center">
+        <br><em>Main Menu</em><br>
+        <img alt="Main" src="https://user-images.githubusercontent.com/61816268/92445043-f513bf80-f1dd-11ea-9526-3fe2227cb43d.jpg"/>
+        <img alt="Main 2" src="https://user-images.githubusercontent.com/61816268/92445058-fe049100-f1dd-11ea-9e48-6093e1faeacf.jpg"/>
+        <img alt="Main 3" src="https://user-images.githubusercontent.com/61816268/92445063-ffce5480-f1dd-11ea-938f-1d8a664cf5d6.jpg"/>
+        <img alt="Main 4" src="https://user-images.githubusercontent.com/61816268/92445070-0230ae80-f1de-11ea-9606-81b5d7265dbc.jpg"/>
+        <img alt="Main 5" src="https://user-images.githubusercontent.com/61816268/92445079-03fa7200-f1de-11ea-828a-c0e652fb4174.jpg"/>
+        <img alt="Main 6" src="https://user-images.githubusercontent.com/61816268/92445082-052b9f00-f1de-11ea-8349-1afbf99e310d.jpg"/>
+        <br><br>
+        <br><em>Knowledge Menu</em><br>
+        <img alt="Knowledge" src="https://user-images.githubusercontent.com/61816268/92445086-065ccc00-f1de-11ea-88b4-b3d4c0e6f2f8.jpg"/>
+        <br><br>
+        <br><em>About Us Menu</em><br>
+        <img alt="About Us" src="https://user-images.githubusercontent.com/61816268/92445091-078df900-f1de-11ea-8ba2-1f2f6306f9b6.jpg"/>
+        <img alt="About Us 2" src="https://user-images.githubusercontent.com/61816268/92445096-09f05300-f1de-11ea-8dcd-0b2b4363f883.jpg"/>
+        <img alt="About Us 3" src="https://user-images.githubusercontent.com/61816268/92445109-0e1c7080-f1de-11ea-8275-5db39e8665b4.jpg"/>
+        <br><br>
+        <br><em>Media Pos Menu</em><br>
+        <img alt="Media Pos" src="https://user-images.githubusercontent.com/61816268/92445116-107eca80-f1de-11ea-9c57-08871aabe057.jpg"/>
+        <img alt="Media Pos 2" src="https://user-images.githubusercontent.com/61816268/92445119-11aff780-f1de-11ea-9372-a196dd49e23b.jpg"/>
+        <br><br>
+        <br><em>Link Menu</em><br>
+        <img alt="Link Menu" src="https://user-images.githubusercontent.com/61816268/92445121-1379bb00-f1de-11ea-82a8-ebc3cb8faeda.jpg"/>
+        <br><br>
+        <br><em>Search Menu</em><br>
+        <img alt="Search Menu" src="https://user-images.githubusercontent.com/61816268/92445131-15437e80-f1de-11ea-990c-087e4c29d0cd.jpg"/>
+        <br><br>
+        <br><em>Joomla Menu</em><br>
+        <img alt="Joomla Menu" src="https://user-images.githubusercontent.com/61816268/92445134-1674ab80-f1de-11ea-8823-dc6cd219fb8d.jpg"/>
+        <img alt="Joomla Menu 2" src="https://user-images.githubusercontent.com/61816268/92445137-17a5d880-f1de-11ea-81ab-5d8008f7efa8.jpg"/>
+        <img alt="Joomla Menu 3" src="https://user-images.githubusercontent.com/61816268/92445141-183e6f00-f1de-11ea-938e-8f62a281a9ce.jpg"/>
+        <img alt="Joomla Menu 4" src="https://user-images.githubusercontent.com/61816268/92445145-1aa0c900-f1de-11ea-85b4-6502ea2d6b19.jpg"/>
+        <img alt="Joomla Menu 5" src="https://user-images.githubusercontent.com/61816268/92445149-1bd1f600-f1de-11ea-9049-e7fb85aaca64.jpg"/>
+        <img alt="Joomla Menu 6" src="https://user-images.githubusercontent.com/61816268/92445156-1d9bb980-f1de-11ea-92f9-1b5c80fb0b3f.jpg"/> 
+        <img alt="Joomla Menu 7" src="https://user-images.githubusercontent.com/61816268/92445160-1f657d00-f1de-11ea-8fe4-dab912b09ed2.jpg"/>
+        <img alt="Joomla Menu 8" src="https://user-images.githubusercontent.com/61816268/92445164-2096aa00-f1de-11ea-8241-f15ac64e8a6d.jpg"/>
+        <img alt="Joomla Menu 9" src="https://user-images.githubusercontent.com/61816268/92445169-21c7d700-f1de-11ea-927c-0da4ddc22a5c.jpg"/> 
+</p>
+
 ## Support and Help
 <ul>
         <li>The Joomla! Documentation: https://docs.joomla.org/Special:MyLanguage/Main_Page</li>
