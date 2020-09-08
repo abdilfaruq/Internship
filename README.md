@@ -1,5 +1,7 @@
 # INTERNSHIP
+
 ## Knowledge Management System of PT. POS INDONESIA (PERSERO) Website-based using Joomla Version 3
+
 ### Description
 Utilizing all facilities owned by PT. POS INDONESIA (PERSERO) Bandung based on the objectives and parties who need training from the start of calling participants, preparation and implementation through the web www.wahana.posindonesia.co.id and www.elearning.posindonesia.co.id through the POS Indonesia wifi connection because the web using an intranet.  
 From the process of implementing the training program, among them, related Parties/Parties who need training, requests are processed and selected for completeness, complete, the process of calling participants, accommodation preparation, training implementation, evaluation, evaluation report.    
